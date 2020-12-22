@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20201221 18:36:00.980" generator="Robot 3.2.2 (Python 2.7.18 on win32)">
+<suite source="C:\Users\ASRock\eclipse-workspace\ValidationProject" id="s1" name="ValidationProject">
+<suite source="C:\Users\ASRock\eclipse-workspace\ValidationProject\TestCases" id="s1-s1" name="TestCases">
+<suite source="C:\Users\ASRock\eclipse-workspace\ValidationProject\TestCases\ValidationTestSuite.robot" id="s1-s1-s1" name="ValidationTestSuite">
+<test id="s1-s1-s1-t1" name="TC_004 login test">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20201221 18:36:02.661" level="INFO">Opening browser 'gc' to base url 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'.</msg>
+<status status="PASS" endtime="20201221 18:36:14.711" starttime="20201221 18:36:02.656"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20201221 18:36:15.908" starttime="20201221 18:36:14.716"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20201221 18:36:18.916" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20201221 18:36:18.919" starttime="20201221 18:36:15.912"></status>
+</kw>
+<kw name="Close Window" library="SeleniumLibrary">
+<doc>Closes currently opened and selected browser window/tab.</doc>
+<status status="PASS" endtime="20201221 18:36:19.504" starttime="20201221 18:36:18.929"></status>
+</kw>
+<status status="PASS" endtime="20201221 18:36:19.513" critical="yes" starttime="20201221 18:36:02.646"></status>
+</test>
+<status status="PASS" endtime="20201221 18:36:19.534" starttime="20201221 18:36:01.402"></status>
+</suite>
+<status status="PASS" endtime="20201221 18:36:19.625" starttime="20201221 18:36:01.377"></status>
+</suite>
+<status status="PASS" endtime="20201221 18:36:19.676" starttime="20201221 18:36:01.144"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="ValidationProject" pass="1">ValidationProject</stat>
+<stat fail="0" id="s1-s1" name="TestCases" pass="1">ValidationProject.TestCases</stat>
+<stat fail="0" id="s1-s1-s1" name="ValidationTestSuite" pass="1">ValidationProject.TestCases.ValidationTestSuite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
