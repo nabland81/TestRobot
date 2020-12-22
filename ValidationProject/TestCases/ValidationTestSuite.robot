@@ -53,6 +53,9 @@ TC_005_login_test
     Open Browser   https://login.salesforces.com/   gc
     Maximize Browser Window
     Title Should Be    Connexion | Salesforce
-    Element Should Be Visible    id=username                
+    Element Should Be Visible    id=username          
+    
+TC_006_login_test
+   Log To Console    Nabil Git              
        
         
